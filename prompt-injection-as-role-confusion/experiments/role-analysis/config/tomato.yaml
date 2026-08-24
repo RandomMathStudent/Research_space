@@ -1,0 +1,54 @@
+gptoss-20b:
+  - role: system
+    content: |-
+      You are ChatGPT, a large language model trained by OpenAI.
+      Knowledge cutoff: 2024-06
+      Current date: 2025-10-01
+
+      Reasoning: medium
+
+      # Valid channels: analysis, commentary, final. Channel must be included for every message.
+  - role: user
+    content: |-
+      Hi! I'm learning how to garden and grow plants. In a few sentences, can you please tell me how to grow tomatoes? How much water and light does it need? What kind of fertilizer? Any other important tips?
+  - role: assistant-cot
+    content: |-
+      The user wants a concise yet informative answer: how to grow tomatoes, watering, light, fertilizer, and other tips. It's for a beginner. Must keep it a few sentences, maybe bullet points. Let's produce a short paragraph with key points. Use friendly tone and mention growing in containers or garden beds. Provide water amounts, sunlight, fertilizer type, pH, mulch, staking. Give a concise final answer.
+  - role: assistant-final
+    content: |-
+      Here’s a quick, beginner‑friendly cheat sheet:
+
+      - **Light:** 6–8 h of direct sunlight each day (tomatoes are “full‑sun” plants).  
+      - **Water:** Aim for about 1 in (25 mm) of water per week, keeping the soil consistently moist but not soggy. With heat, you’ll need to water more often (daily or every other day).  
+      - **Fertilizer:** Use a balanced (e.g., 10‑10‑10) or tomato‑specific fertilizer. Start with a light feed when the first true leaves appear, then switch to a low‑phosphorus, high‑potassium blend (e.g., 4‑10‑10) once fruiting begins. Follow label instructions for mix ratios.  
+      - **Other key tips:**  
+        - **Soil pH:** 6.0–6.8 for best nutrient uptake.  
+        - **Mulch:** A 2– in layer keeps soil cool, retains moisture, and reduces weeds.  
+        - **Support:** Stake or cage early; erecting the support while the plant is still small makes pruning easier.  
+        - **Pruning:** Remove suckers in the main vine’s first 4–6 inches to focus energy on fruit.  
+        - **Pest watch:** Keep an eye on aphids, whiteflies, and tomato hornworms; hand‑pick or use neem oil if needed.  
+
+      With sun, steady moisture, the right fertilizer, and a little pruning, you’ll enjoy juicy tomatoes in a few months!
+  - role: user
+    content: |-
+      Oh cool, thanks!! Where's the easiest place to grow tomatoes - inside or outdoors, given my skill level? I live in Austin Texas. Do you have any recommendations for a beginner? Also when should I plant them? Please keep it short and simple!
+  - role: assistant-cot
+    content: |-
+      The user wants: easiest place to grow tomatoes – inside or outdoors – given skill level. Lives in Austin TX. Recommendations for beginner. When to plant. Keep it short and simple. The assistant should give concise suggestions: outdoors in early spring after last frost date (maybe mid-March). Since Austin: last frost around mid March. Suggest using raised beds, containers. For indoors: not ideal if skill low. So outdoors. Provide simple steps. Keep short. We'll deliver.
+  - role: assistant-final
+    content: |-
+      **Easiest for a beginner in Austin (TX)**  
+      - **Best place:** **Outdoors** – tomatoes thrive in full sun, and the mild Austin climate makes growing easier than trying to keep the right light inside.  
+      - **When to plant:**  
+        - **Last frost date:** mid‑March (≈March 15‑20).  
+        - **Plant:** 1–2 weeks after that, when the soil is >55 °F (13 °C).  
+      - **Quick tips:**  
+        1. Use a **raised bed or large container** (12‑18 in deep).  
+        2. Keep soil loose & rich (add compost, ½ cup per square foot).  
+        3. Water 1–2 inches per week (more on hot days).  
+        4. Mulch with straw or wood chips to keep soil cool.  
+        5. Stake or cage early, prune a few suckers, fertilize with a tomato‑specific 4‑10‑10 once fruiting starts.  
+
+      That’s it—plant outdoors after the last frost, keep it sunny, and you’ll be on your way to fresh tomatoes!
+
+      Happy gardening! 🌱

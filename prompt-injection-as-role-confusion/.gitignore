@@ -1,0 +1,23 @@
+# Secrets
+.env
+
+# Python
+.venv
+*.pyc
+.pycache
+
+# Data
+*.csv
+*.pt
+*.pkl
+*.png
+*.html
+*.pdf
+*.arrow
+*.feather
+*.bak
+*.parquet
+
+# Retain everything in docs
+!docs/
+!docs/**
