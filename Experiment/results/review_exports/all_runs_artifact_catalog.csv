@@ -1,0 +1,8 @@
+run_id,has_raw_responses,has_trials_csv,has_summary_csv,trial_csv_rows,summary_csv_rows,raw_record_rows,response_rows
+gpt_oss_role_vector_20260828_071331Z,True,True,True,39,1,39,39
+gpt_oss_role_vector_20260828_072857Z,True,True,False,303,,303,303
+gpt_oss_role_vector_20260828_084353Z,True,True,True,603,1,603,603
+gpt_oss_role_vector_20260828_092235Z,True,True,True,189,3,189,189
+gpt_oss_role_vector_20260829_054343Z,True,True,True,6633,11,6633,6633
+gpt_oss_role_vector_layer_matched_20260902_082633Z,False,False,False,,,,0
+gpt_oss_role_vector_layer_matched_20260902_085528Z,True,True,True,765,10,765,765
