@@ -1,0 +1,7 @@
+condition,intervention_type,alpha,token_span,layer,trials,mean_userness_before,mean_userness_after,mean_userness_shift
+baseline,baseline,0.0,injection,23,633,0.9441332741747912,0.9441332741747912,0.0
+baseline,baseline,0.0,tool,23,633,0.9224080916076286,0.9224080916076286,0.0
+fixed_layer_12_role_vector_alpha_5,fixed_layer_12_role_vector,5.0,injection,23,633,0.840747284098259,0.8144000754537175,-0.026347208644541518
+fixed_layer_12_role_vector_alpha_5,fixed_layer_12_role_vector,5.0,tool,23,633,0.7690609783922892,0.7348895515499145,-0.03417142684237463
+layer_matched_role_vector_alpha_5,layer_matched_role_vector,5.0,injection,23,633,0.6871225599429054,0.49560891467295176,-0.19151364526995363
+layer_matched_role_vector_alpha_5,layer_matched_role_vector,5.0,tool,23,633,0.581739200493924,0.39586947778295756,-0.1858697227109665
