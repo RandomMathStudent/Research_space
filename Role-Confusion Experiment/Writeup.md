@@ -1,4 +1,4 @@
-# Reducing Prompt-Injection Following with a Tool-Token Role Vector
+    # Reducing Prompt-Injection Following with a Tool-Token Role Vector
 
 ## Executive summary
 
